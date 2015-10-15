@@ -18,6 +18,7 @@ if (window.Worker) { //check if Browser supports the Worker api.
 	};
 
 	myWorker.onmessage = function(e) {
+    console.log(e);
 		result.textContent = e.data;
 		console.log('Message received from worker '+e.data);
 	};
