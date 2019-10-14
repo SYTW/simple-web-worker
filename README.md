@@ -6,9 +6,9 @@ Ejemplo de uso de Web Workers.
 * [Demo en funcionamiento](http://sytw.github.io/simple-web-worker/).
 * En local:
 
-```
-npm i
-node static-server.js
-``` 
+  ```
+  npm i
+  node static-server.js
+  ``` 
 
-y visite [http://localhost:3000](http://localhost:3000)
+  y visite [http://localhost:3000](http://localhost:3000)
